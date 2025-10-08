@@ -361,6 +361,7 @@ export default {
                 value: "https://raw.githubusercontent.com/televen6823/subclash/refs/heads/main/mihomoparty.ini"
               }
             ]
+          },
           {
             label: "CM规则",
             options: [
@@ -1315,6 +1316,7 @@ export default {
   }
 };
 </script>
+
 
 
 
