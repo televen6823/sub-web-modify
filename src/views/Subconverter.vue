@@ -357,9 +357,21 @@ export default {
             label: "自用规则",
             options: [
               {
-                label: "自动选优延迟-建议使用",
+                label: "自动选优延迟规则-建议使用",
                 value: "https://raw.githubusercontent.com/televen6823/subclash/refs/heads/main/mihomoparty.ini"
-              }
+                },
+              {
+                label: "手动/自动规则-带图标",
+                value: "https://raw.githubusercontent.com/televen6823/clash/refs/heads/main/proxy/clash-all.ini"
+                },
+              {
+                label: "手动/自动规则-不带图标",
+                value: "https://raw.githubusercontent.com/televen6823/clash/refs/heads/main/proxy/clash-all-globe-noicon.ini"
+                },
+              {
+                label: "手动/自动规则-比较全面",
+                value: "https://raw.githubusercontent.com/televen6823/clash/refs/heads/main/proxy/clash-test.ini"
+                }
             ]
           },
           {
@@ -1316,6 +1328,7 @@ export default {
   }
 };
 </script>
+
 
 
 
