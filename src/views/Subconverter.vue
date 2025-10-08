@@ -357,6 +357,10 @@ export default {
             label: "CM规则",
             options: [
               {
+                label: "延迟自动选优建议使用",
+                value: "https://raw.githubusercontent.com/televen6823/subclash/refs/heads/main/mihomoparty.ini"
+              },
+              {
                 label: "CM_Online 默认版 识别港美地区(与Github同步)",
                 value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini"
               },
@@ -784,8 +788,8 @@ export default {
         sourceSubUrl: "",
         clientType: "",
         customBackend: this.getUrlParam() == "" ? "https://api.onen.fun" : this.getUrlParam(),
-        shortType: "https://v1.mk/short",
-        remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
+        shortType: "https://d1.mk/short",
+        remoteConfig: "https://raw.githubusercontent.com/televen6823/subclash/refs/heads/main/mihomoparty.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
@@ -1307,6 +1311,7 @@ export default {
   }
 };
 </script>
+
 
 
 
